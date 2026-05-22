@@ -1814,7 +1814,6 @@ function deleteFromLibrary() {
 function clearForm() {
   $('f-product').value  = '';
   $('f-hazard').value   = '';
-  $('f-prec').value     = '';
   $('f-firstaid').value = '';
   document.querySelector('input[name="signal"][value="DANGER"]').checked = true;
   ['n-health','n-flame','n-inst'].forEach(id => $(id).value = '0');
